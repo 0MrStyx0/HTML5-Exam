@@ -1,0 +1,34 @@
+div.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.services {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+div.dropdown-options {
+    display: none;
+}
+
+div.dropdown:hover {
+    background: black;
+}
+div.dropdown:hover div.dropdown-options {
+    display: block;
+    position: absolute;
+    top: 50px;
+    border: solid thin black;
+    border-radius: 2px;
+    width: 150px;
+}
+
+a.option {
+    display: block;
+    color: black;
+    padding: 5px;
+}

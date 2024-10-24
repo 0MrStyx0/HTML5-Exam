@@ -1,0 +1,47 @@
+@import url(dropdown-services.css);
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 5fr 3fr;
+}
+
+nav.header-nav {
+    display: grid;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    height: 50px;
+    grid-template-columns: 370px 90px repeat(4, 80px);
+}
+
+a.logo,
+a.home,
+a.about,
+a.products {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+a.logo {
+    grid-column: 2;
+    font-size: 22px;
+}
+a.home {
+    background-color: black;
+    grid-column: 3;
+    justify-content: center;
+}
+a.about {
+    grid-column: 4;
+    justify-content: center;
+}
+a.products {
+    grid-column: 5;
+    justify-content: center;
+}
+
+img.fire {
+    height: 30px;
+}
+
