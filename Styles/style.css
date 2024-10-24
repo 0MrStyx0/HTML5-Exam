@@ -8,7 +8,6 @@ body {
 nav.header-nav {
     display: grid;
     background-color: rgb(40, 39, 39);
-    color: white;
     height: 50px;
     grid-template-columns: 370px 90px repeat(4, 80px);
 }
@@ -17,10 +16,12 @@ a.logo,
 a.home,
 a.about,
 a.products {
-    color: white;
+    color: gray;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 17px;
+    text-decoration: none;
 }
 
 a.logo {
@@ -30,18 +31,18 @@ a.logo {
 a.home {
     background-color: black;
     grid-column: 3;
-    justify-content: center;
 }
 a.about {
     grid-column: 4;
-    justify-content: center;
 }
 a.products {
     grid-column: 5;
-    justify-content: center;
 }
 
 img.fire {
     height: 30px;
 }
 
+:is(a.logo:hover, a.home:hover, a.about:hover, a.products:hover, button.services:hover) {
+    color: white;
+}

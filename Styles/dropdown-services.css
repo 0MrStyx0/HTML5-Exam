@@ -7,7 +7,7 @@ div.dropdown {
 button.services {
     border: none;
     background-color: transparent;
-    color: white;
+    color: gray;
     font-size: 15px;
 }
 
@@ -31,4 +31,9 @@ a.option {
     display: block;
     color: black;
     padding: 5px;
+    text-decoration: none;
+}
+
+a.option:hover {
+    background-color: lightgray;
 }
