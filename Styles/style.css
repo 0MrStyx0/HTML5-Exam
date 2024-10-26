@@ -1,48 +1,5 @@
-@import url(dropdown-services.css);
+@import url(skeleton.css);
 
-body {
-    display: grid;
-    grid-template-rows: 1fr 5fr 3fr;
-}
-
-nav.header-nav {
-    display: grid;
-    background-color: rgb(40, 39, 39);
-    height: 50px;
-    grid-template-columns: 370px 90px repeat(4, 80px);
-}
-
-a.logo,
-a.home,
-a.about,
-a.products {
-    color: gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 17px;
-    text-decoration: none;
-}
-
-a.logo {
-    grid-column: 2;
-    font-size: 22px;
-}
-a.home {
-    background-color: black;
-    grid-column: 3;
-}
-a.about {
-    grid-column: 4;
-}
-a.products {
-    grid-column: 5;
-}
-
-img.fire {
-    height: 30px;
-}
-
-:is(a.logo:hover, a.home:hover, a.about:hover, a.products:hover, button.services:hover) {
-    color: white;
+header {
+    background-color: rgb(39, 39, 39);
 }

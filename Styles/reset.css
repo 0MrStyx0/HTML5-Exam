@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+html,
 body {
-    min-width: 500px;
+    height: 100%;
 }
