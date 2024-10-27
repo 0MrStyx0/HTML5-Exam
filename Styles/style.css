@@ -1,15 +1,4 @@
 @import url(skeleton.css);
 @import url(/Styles/Header/header.css);
 @import url(/Styles/Footer/footer.css);
-
-header {
-    background-color: rgb(39, 39, 39);
-}
-
-#main-container1 {
-    background-color: yellowgreen
-}
-
-#main-container3 {
-    background-color: goldenrod
-}
+@import url(/Styles/Main/main.css);

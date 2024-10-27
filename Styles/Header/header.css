@@ -1,2 +1,6 @@
 @import url(navigation.css);
 @import url(dropdown.css);
+
+header {
+    background-color: rgb(39, 39, 39);
+}

@@ -1,0 +1,36 @@
+#main-container1 {
+    display: flex;
+    background-color: yellowgreen;
+}
+
+div.engage {
+    display: flex;
+    color: greenyellow;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+p.engage-paragraph {
+    font-size: 21px;
+}
+
+h1.first {
+    font-size: 63px;
+}
+
+button.engage-button {
+    color: white;
+    border: 1px solid transparent;
+    background-color: rgb(51 122 183);
+    border-color: rgb(51 122 183);
+    border-radius: 4px;
+    width: 106px;
+    height: 34px;
+    font-size: 14px;
+}
+button.engage-button:hover {
+    cursor: pointer;
+    background-color:  rgb(8, 92, 165);
+}
