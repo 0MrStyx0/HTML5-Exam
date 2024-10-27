@@ -57,3 +57,7 @@ button.search:hover {
     cursor: pointer;
     background-color: lightgray;
 }
+
+img.fire {
+    height: 25px;
+}

@@ -1,0 +1,20 @@
+a.footer-link {
+    text-decoration: none;
+    color: rgb(51 122 183);
+}
+
+a.footer-link:hover {
+    text-decoration: underline;
+}
+
+div.footer-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+p.copyright {
+    color: rgb(149 149 149);
+}
