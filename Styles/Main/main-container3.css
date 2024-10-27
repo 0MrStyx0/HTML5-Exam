@@ -1,0 +1,39 @@
+#main-container3 {
+    background-color: goldenrod;
+}
+
+
+img.mini-empty {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+img.mini-empty:hover {
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+button.block {
+    border-color: #ccc;
+    height: 34px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    margin: 20px;
+}
+
+button.block:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+section.content {
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+    text-align: center;
+}
