@@ -1,0 +1,59 @@
+nav.header-content {
+    display: flex;
+    color: rgb(157, 157, 157);
+    align-items: center;
+    font-size: 18px;
+}
+
+a.logo {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-right: 15px;
+}
+
+a.navigation {
+    display: flex;
+    font-size: 18px;
+    height: 50px;
+    width: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+a.logo,
+a.navigation {
+    color: rgb(157, 157, 157);
+    text-decoration: none;
+}
+
+a.logo:hover {
+    color: white;
+}
+
+a.navigation:hover {
+    color: white;
+}
+
+a.home {
+    background-color: black;
+}
+
+input.search-input {
+    margin-left: auto;
+    height: 34px;
+    width: 196px;
+    border-radius: 4px;
+}
+
+button.search {
+    height: 34px;
+    border-radius: 4px;
+    width: 70px;
+    margin-left: 2px;
+}
+
+button.search:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}

@@ -24,12 +24,8 @@ div.main-container {
     justify-content: center;
 }
 
-div.container {
-    height: 100%;
-    width: 100%;
-    max-width: 1170px;
-}
-
+nav.header-content,
+div.footer-content,
 div.main-content {
     height: 100%;
     width: 100%;

@@ -1,0 +1,9 @@
+@import url(/index.css);
+
+a.about {
+    background-color: black;
+}
+
+a.home {
+    background-color: inherit;
+}

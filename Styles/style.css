@@ -1,8 +1,8 @@
 @import url(skeleton.css);
+@import url(/Styles/Header/header.css);
 
 header {
     background-color: rgb(39, 39, 39);
-    color: white;
 }
 
 #main-container1 {

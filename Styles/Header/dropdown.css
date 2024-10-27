@@ -1,0 +1,40 @@
+div.dropdown {
+    display: none;
+}
+
+div.services {
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+div.services:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+div.services:hover div.dropdown {
+    display: block;
+    position: absolute;
+    border: solid thin black;
+    background-color: white;
+    width: 160px;
+    top: 50px;
+    left: 1px;
+}
+
+a.dropdown-content {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding: 5px;
+}
+
+a.dropdown-content:hover {
+    background-color: lightgray;
+}

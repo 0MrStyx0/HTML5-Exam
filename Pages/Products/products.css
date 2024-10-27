@@ -1,0 +1,9 @@
+@import url(/index.css);
+
+a.products {
+    background-color: black;
+}
+
+a.home {
+    background-color: inherit;
+}
