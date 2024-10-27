@@ -2,3 +2,15 @@
 @import url(/Styles/Header/header.css);
 @import url(/Styles/Footer/footer.css);
 @import url(/Styles/Main/main.css);
+
+@media screen and (max-width:800px) {
+    section.image-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    section.content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

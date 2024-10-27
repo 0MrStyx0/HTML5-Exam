@@ -31,3 +31,8 @@ div.main-content {
     width: 100%;
     max-width: 1170px;
 }
+
+header {
+    position: sticky;
+    top: 0;
+}
