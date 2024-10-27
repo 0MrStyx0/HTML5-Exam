@@ -8,14 +8,29 @@ body {
     grid-template-rows: 51px 1fr 120px;
 }
 
+main {
+    display: grid;
+    grid-auto-rows: auto;
+}
+
 header,
-main,
 footer {
     display: flex;
     justify-content: center;
 }
 
+div.main-container {
+    display: flex;
+    justify-content: center;
+}
+
 div.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1170px;
+}
+
+div.main-content {
     height: 100%;
     width: 100%;
     max-width: 1170px;

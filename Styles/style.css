@@ -2,4 +2,13 @@
 
 header {
     background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+#main-container1 {
+    background-color: yellowgreen
+}
+
+#main-container3 {
+    background-color: goldenrod
 }
