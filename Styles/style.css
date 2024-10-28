@@ -4,6 +4,27 @@
 @import url(/Styles/Main/main.css);
 
 @media screen and (max-width:800px) {
+
+    #hbutton {
+        display: inline-block;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    #hitems > * {
+        width: 100%;
+        flex-basis: auto;
+    }
+
+    #htoggle:checked ~ #hitems {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #htoggle:not(:checked) ~ #hitems{
+        display: none;
+    }
+
     section.image-list {
         flex-direction: column;
     }
